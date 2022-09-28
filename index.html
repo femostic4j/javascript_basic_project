@@ -1,0 +1,125 @@
+
+
+<script>
+   var ourName = "freeCodeCamp";
+    var ourStr = "Hello, our name is " + ourName + ", how are you doing from your end?";
+    console.log(ourStr);
+
+    var ourCode = "femi omoshona";
+    var ourSolidity = "My name is " + ourCode + " and i am solidity developer @ C-global tech";
+    console.log(ourSolidity);
+
+    var anAdjective = "awesome!";
+    var ourStr = "freeCodeCamp in ";
+    var ourAug = "september";
+    ourStr += anAdjective;
+    console.log(ourStr);
+
+    var myStr = "Jello World";
+    var mySt = "H";
+    console.log(mySt);
+
+    function worldBlanks(myNoun, myAdjective, myVerb, myAdverb){
+        var result = "";
+        result += "The " + myAdjective + " " + myNoun + " " + myVerb + " to the store " + myAdverb;
+
+        return result;
+    }
+    console.log(worldBlanks("dog", "big", "ran", "quickly" ))
+
+    var ourArray = [18, 64, 99];
+    ourArray[4] = 45;
+    console.log(ourArray);
+
+    var myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
+    
+    var  myData = myArray[0][0];
+    var  myData = myArray[3][2];
+    console.log(myData);
+
+    var ourArray = ["Stimpson", "J", "Cat"];
+    ourArray.push(["happy", "Joy"]);
+    console.log(ourArray);
+
+    var ourArray = [1,2,4,5,6,7]
+    var removedFromOurArray = ourArray.pop();
+    var removedFromOurArray = ourArray.pop();
+    var removedFromOurArray = ourArray.pop();
+    console.log(ourArray);
+
+    var outerWear = "T-Shirt";
+
+    function myOutfit(){
+
+        var outerWear = "sweater";
+        return outerWear;
+        
+    }
+    console.log(myOutfit());
+
+    function minusSeven(num){
+        return num - 7;
+    }
+    console.log(minusSeven(10));
+
+
+    function timefive(num){
+        return num * 5;
+    }
+    console.log(timefive(20));
+
+
+    function fivetime(num){
+        return num * 40;
+    }
+    console.log(fivetime(20));
+
+    function addition (num){
+        return num + 40;
+    }
+    console.log(addition(3))
+
+    function division (num){
+        return num / 50;
+    }
+    console.log(division(4));
+
+    var changed = 0;
+
+    function change(num){
+        return (num + 5) / 3;
+    }
+    changed = change(10);
+    console.log(change(10))
+
+
+    function adddiv(num){
+        return(num * 4) / 9;
+    }
+
+    changed = adddiv(30);
+    console.log(adddiv(30));
+
+function nextInLine(arr, item){
+    arr.push(item)
+    return arr.shift();
+}
+
+var testArr =[1,2,3,4,5];
+
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
+
+function trueOrFalse(wasThatTrue){
+    if(washatTrue){
+        return "Yes, that was true";
+    }else{
+    return "No, that was false";
+    
+    }
+}
+console.log(trueOrFalse(true));
+
+
+</script>
